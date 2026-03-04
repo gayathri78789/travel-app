@@ -1,5 +1,0 @@
-streamlit
-groq
-folium
-python-dotenv
-geopy
