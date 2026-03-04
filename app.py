@@ -41,7 +41,7 @@ interests = st.multiselect(
 )
 
 # ---------------- GROQ CLIENT ----------------
-client = Groq(api_key=st.secrets("GROQ_API_KEY"))
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # ---------- GEOCODING FUNCTION (SAFE) ----------
 def get_coordinates(city):
